@@ -1,20 +1,26 @@
 * {
-  margin: 0;
   padding: 0;
-  font-family: "Montserrat", sans-serif;
+  margin: 0;
 }
 
-.dashboard-container {
+.dashboardIcons {
+  width: 30px;
+  height: 30px;
+}
+
+.dashboardLinks,
+.dashboardLinks1-container {
   display: flex;
+  flex-direction: column;
   float: left;
-  /* grid-template-columns: 50px 50px;
-  grid-template-rows: 50px 50px; */
   width: 15vw;
   height: 100vh;
-  background-color: tan;
 }
 
 .header-container {
-  display: flex;
-  float: right;
+  display: grid;
+}
+
+.main-content {
+  display: grid;
 }
